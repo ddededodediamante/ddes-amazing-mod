@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "ddesamazingmod",
+  "version": "${version}",
+  "name": "dde's Amazing Mod",
+  "description": "This is a ddededodediamante description!",
+  "authors": ["ddededodediamante"],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-ddededodediamante-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/ddesamazingmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.ddededodediamante.ddesamazingmodMod"],
+    "client": ["com.ddededodediamante.ddesamazingmodModClient"],
+    "fabric-datagen": [ 
+      "com.ddededodediamante.datagen.ddesamazingmodModDataGenerator"
+    ] 
+  },
+  "mixins": [
+    "ddesamazingmod.mixins.json",
+    {
+      "config": "ddesamazingmod.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.21.10",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

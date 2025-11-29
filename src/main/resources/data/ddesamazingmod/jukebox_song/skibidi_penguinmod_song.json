@@ -1,0 +1,6 @@
+{
+  "sound_event": "ddesamazingmod:skibidi_penguinmod_song",
+  "description": { "translate": "item.ddesamazingmod.skibidi_penguinmod_song_music_disc.desc" },
+  "length_in_seconds": 162,
+  "comparator_output": 0
+}

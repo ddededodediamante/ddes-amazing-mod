@@ -1,0 +1,30 @@
+{
+  "skibidi_penguinmod_song": {
+    "sounds": [
+      "ddesamazingmod:music/skibidi_penguinmod_song"
+    ],
+    "stream": true
+  },
+  "crystal_cave": {
+    "sounds": [
+      "ddesamazingmod:music/crystal_cave"
+    ],
+    "stream": true
+  },
+  "caketown": {
+    "sounds": [
+      "ddesamazingmod:music/caketown"
+    ],
+    "stream": true
+  },
+  "die_rolling": {
+    "sounds": [
+      "ddesamazingmod:die_rolling"
+    ]
+  },
+  "scream": {
+    "sounds": [
+      "ddesamazingmod:scream"
+    ]
+  }
+}

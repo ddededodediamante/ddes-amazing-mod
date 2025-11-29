@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.ddededodediamante.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ddesamazingmodMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

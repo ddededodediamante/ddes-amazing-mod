@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:cooked_beef",
+    "ddesamazingmod:suspicious_substance"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ddesamazingmod:anti_cooked_beef"
+  }
+}

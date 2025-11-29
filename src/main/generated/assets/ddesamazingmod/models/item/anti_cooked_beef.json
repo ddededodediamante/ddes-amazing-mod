@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ddesamazingmod:item/anti_cooked_beef"
+  }
+}

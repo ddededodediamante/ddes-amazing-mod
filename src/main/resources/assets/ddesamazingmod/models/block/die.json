@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "north": "ddesamazingmod:block/die_front",
+    "south": "ddesamazingmod:block/die_back",
+    "east": "ddesamazingmod:block/die_right",
+    "west": "ddesamazingmod:block/die_left",
+    "up": "ddesamazingmod:block/die_top",
+    "down": "ddesamazingmod:block/die_bottom",
+    "particle": "ddesamazingmod:block/die_top"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "g": "minecraft:egg",
+    "m": "minecraft:milk_bucket",
+    "s": "ddesamazingmod:suspicious_substance",
+    "w": "minecraft:wheat"
+  },
+  "pattern": [
+    "mmm",
+    "sgs",
+    "www"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ddesamazingmod:suspicious_cake"
+  }
+}

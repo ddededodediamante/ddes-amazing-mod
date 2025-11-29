@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ddesamazingmod:item/caketown_music_disc"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "d": "minecraft:daylight_detector",
+    "g": "minecraft:gold_ingot",
+    "m": "minecraft:stick",
+    "s": "ddesamazingmod:suspicious_substance"
+  },
+  "pattern": [
+    "sds",
+    "gmg",
+    " m "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ddesamazingmod:day_wand"
+  }
+}

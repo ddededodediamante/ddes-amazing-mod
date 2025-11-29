@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "b": "minecraft:blue_dye",
+    "s": "ddesamazingmod:suspicious_substance",
+    "t": "minecraft:cobblestone"
+  },
+  "pattern": [
+    "s",
+    "t",
+    "b"
+  ],
+  "result": {
+    "count": 2,
+    "id": "ddesamazingmod:cool_block"
+  }
+}

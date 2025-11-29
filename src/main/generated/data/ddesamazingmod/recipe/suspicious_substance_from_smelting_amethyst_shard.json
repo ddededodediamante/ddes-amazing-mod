@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 0.1,
+  "group": "amethyst_to_suspicious_substance",
+  "ingredient": "minecraft:amethyst_shard",
+  "result": {
+    "id": "ddesamazingmod:suspicious_substance"
+  }
+}

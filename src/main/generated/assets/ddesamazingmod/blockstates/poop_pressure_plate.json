@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "ddesamazingmod:block/poop_pressure_plate"
+    },
+    "powered=true": {
+      "model": "ddesamazingmod:block/poop_pressure_plate_down"
+    }
+  }
+}

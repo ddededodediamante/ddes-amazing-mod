@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ddesamazingmod:block/cool_slab"
+    },
+    "type=double": {
+      "model": "ddesamazingmod:block/cool_block"
+    },
+    "type=top": {
+      "model": "ddesamazingmod:block/cool_slab_top"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "ddesamazingmod:poop_block"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ddesamazingmod:poop_button"
+  }
+}

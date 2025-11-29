@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "c": "ddesamazingmod:cool_block"
+  },
+  "pattern": [
+    "ccc"
+  ],
+  "result": {
+    "count": 6,
+    "id": "ddesamazingmod:cool_slab"
+  }
+}

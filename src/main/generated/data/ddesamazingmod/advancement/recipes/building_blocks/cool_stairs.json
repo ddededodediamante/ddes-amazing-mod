@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cool_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ddesamazingmod:cool_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ddesamazingmod:cool_stairs"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cool_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ddesamazingmod:cool_stairs"
+    ]
+  }
+}

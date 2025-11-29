@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right_open",
+  "textures": {
+    "bottom": "ddesamazingmod:block/poop_door_bottom",
+    "top": "ddesamazingmod:block/poop_door_top"
+  }
+}

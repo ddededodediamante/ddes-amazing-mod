@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "ddesamazingmod:block/cool_block",
+    "side": "ddesamazingmod:block/cool_block",
+    "top": "ddesamazingmod:block/cool_block"
+  }
+}

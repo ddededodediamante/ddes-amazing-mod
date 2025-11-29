@@ -1,0 +1,6 @@
+{
+  "sound_event": "ddesamazingmod:caketown",
+  "description": { "translate": "item.ddesamazingmod.caketown_music_disc.desc" },
+  "length_in_seconds": 168,
+  "comparator_output": 0
+}

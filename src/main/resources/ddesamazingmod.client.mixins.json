@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.ddededodediamante.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ddesamazingmodClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

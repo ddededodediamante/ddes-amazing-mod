@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        "ddesamazingmod:poop_block",
+        "ddesamazingmod:poop_stairs",
+        "ddesamazingmod:poop_slab",
+        "ddesamazingmod:poop_wall",
+        "ddesamazingmod:poop_fence",
+        "ddesamazingmod:poop_fence_gate",
+        "ddesamazingmod:poop_door",
+        "ddesamazingmod:poop_button",
+        "ddesamazingmod:poop_pressure_plate"
+    ]
+}
