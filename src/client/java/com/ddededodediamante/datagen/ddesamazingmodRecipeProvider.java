@@ -166,6 +166,20 @@ public class ddesamazingmodRecipeProvider extends FabricRecipeProvider {
                                 conditionsFromItem(Blocks.DAYLIGHT_DETECTOR.asItem()))
                         .offerTo(exporter);
 
+                createShaped(RecipeCategory.TOOLS, ModItems.NIGHT_WAND, 1)
+                        .pattern("sds")
+                        .pattern("imi")
+                        .pattern(" m ")
+                        .input('s', ModItems.SUSPICIOUS_SUBSTANCE)
+                        .input('d', Blocks.DAYLIGHT_DETECTOR.asItem())
+                        .input('i', Items.IRON_INGOT)
+                        .input('m', Items.STICK)
+                        .criterion("has_suspicious",
+                                conditionsFromItem(ModItems.SUSPICIOUS_SUBSTANCE))
+                        .criterion("has_daylight_detector",
+                                conditionsFromItem(Blocks.DAYLIGHT_DETECTOR.asItem()))
+                        .offerTo(exporter);
+
                 /* smelting */
 
                 offerSmelting(

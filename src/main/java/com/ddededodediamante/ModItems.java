@@ -6,6 +6,7 @@ import java.util.function.Function;
 import com.ddededodediamante.item.AntiCookedBeef;
 import com.ddededodediamante.item.DayWand;
 import com.ddededodediamante.item.EvilStick;
+import com.ddededodediamante.item.NightWand;
 import com.ddededodediamante.item.PoopPiece;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -43,6 +44,9 @@ public class ModItems {
     public static final Item DAY_WAND = register("day_wand", DayWand::new,
             new Item.Settings().maxCount(1));
 
+    public static final Item NIGHT_WAND = register("night_wand", NightWand::new,
+            new Item.Settings().maxCount(1));
+
     public static final Item POOP_PIECE = register("poop_piece", PoopPiece::new,
             new Item.Settings().food(
                     new FoodComponent.Builder().nutrition(1).saturationModifier(0.2f).build()));
@@ -71,6 +75,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS)
                 .register((itemGroup) -> {
                     itemGroup.add(ModItems.DAY_WAND);
+                    itemGroup.add(ModItems.NIGHT_WAND);
                     itemGroup.add(ModItems.SKIBIDI_PENGUINMOD_SONG_MUSIC_DISC);
                     itemGroup.add(ModItems.CRYSTAL_CAVE_MUSIC_DISC);
                     itemGroup.add(ModItems.CAKETOWN_MUSIC_DISC);
