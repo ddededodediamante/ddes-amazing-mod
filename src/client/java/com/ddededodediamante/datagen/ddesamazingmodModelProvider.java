@@ -45,6 +45,7 @@ public class ddesamazingmodModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CRYSTAL_CAVE_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.CAKETOWN_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.DAY_WAND, Models.HANDHELD_ROD);
+        itemModelGenerator.register(ModItems.NIGHT_WAND, Models.HANDHELD_ROD);
         itemModelGenerator.register(ModItems.POOP_PIECE, Models.GENERATED);
         itemModelGenerator.register(ModBlocks.SUSPICIOUS_CAKE.asItem(), Models.GENERATED);
         itemModelGenerator.register(ModItems.ANTI_COOKED_BEEF, Models.GENERATED);
